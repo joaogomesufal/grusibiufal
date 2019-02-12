@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\" : "app/",
+      "App\\Classes\\": "app/classes/", 
+      "App\\Actions\\": "app/actions/" 
+    }
+  },
+  "require": {
+    "ifro/gru-siafi": "^0.4.0",
+    "symfony/dotenv": "^4.2"
+  }
+}
